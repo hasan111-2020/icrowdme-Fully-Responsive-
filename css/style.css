@@ -1,0 +1,1006 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Menu Section CSS*/
+.menu{}
+
+.menu .navbar-nav{
+    margin-top: 12px;
+}
+
+.menu .navbar-nav .nav-item{}
+
+.menu .navbar-nav .nav-item .nav-link{
+    color: #666666;
+    margin: 0px 5px;
+}
+
+.menu .navbar-nav .nav-item .btn{}
+
+.menu .navbar-nav .nav-item .btn.btn-login{
+    background: #add136;
+    padding: 8px 32px;
+    margin-left: 46px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.menu .navbar-nav .nav-item:hover .nav-link{
+    color: rgb(17, 15, 15);
+}
+
+.menu .navbar-nav .nav-item .btn.btn-login:hover{
+    color: #fff;
+    background: #80a30d;
+}
+
+/*Banner Section CSS*/
+.banner{
+    background: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner .text-box{
+    text-align: center;
+    margin: 160px 0;
+}
+
+.banner .text-box h1{
+    color: #fff;
+}
+
+.banner .text-box span{
+    font-size: 32px;
+}
+
+.banner .text-box .btn{
+    color: #fff;
+    background: #99c50a;
+    margin-top: 50px;
+    padding: 18px 40px;
+}
+
+.banner .text-box .btn:hover{
+    background: #80a30d;    
+}
+
+/* Work Section Css */
+.work{
+    margin: 100px 0;
+}
+
+.work .text-box{
+    text-align: center;
+}
+
+.work .text-box img{
+    margin-bottom: 20px;
+}
+
+.work .text-box h2{
+    color: #515151;
+    padding: 0 30%;
+    margin-bottom: 20px;
+}
+
+.work .text-box p{
+    line-height: 1.7;
+    color: rgba(81, 81, 81, .71);
+    padding: 10px 12%;
+}
+
+/*Browse Section CSS*/
+.browse{
+    margin: 0px 0px 100px 0px;
+}
+
+.browse p{}
+
+.browse p .btn{
+    font-size: 32px;
+    color: #656565;
+}
+
+.browse p .btn:focus{
+    outline: 0;
+    box-shadow: none;
+}
+
+.browse p .btn span{
+    background: #5f5f5f;
+    color: #fff;
+    padding: 0px 12px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.browse .card{
+    border:none;
+}
+.browse .card-img{
+    margin-top: 48px;
+}
+.browse .card .card-body{}
+.browse .card .card-body .card-title{
+    font-size: 28px;
+    color: #add136;
+    margin-bottom: 30px;
+}
+.browse .card .card-body .card-text{
+    color: #606060;
+    line-height: 1.7;
+    margin-bottom: 0;
+    padding-right: 10%;
+}
+
+.browse p .btn:hover span{
+    background-color: #add136;
+}
+/* Find Section CSS */
+.find{}
+.find .img-box{}
+
+.find .img-box img{
+    margin-top: 22px;
+}
+
+.find .text-box{}
+
+.find .text-box.one{
+    padding: 0 10%;
+}
+
+.find .text-box.two{
+    padding: 0 6%;
+}
+
+.find .text-box h3{
+    color: #515151;
+    margin-bottom: 20px;
+}
+
+.find .text-box p{
+    color: #515151;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.find .text-box .btn{
+    color: #fff;
+    border-radius: 6px;
+}
+
+.find .text-box .btn:focus{
+    outline: 0;
+    box-shadow: none;
+}
+
+.find .text-box .btn.one{
+    background: #26a6d1;    
+}
+
+.find .text-box .btn.two{
+    background-color:#add136;
+}
+
+.find .text-box .btn.one:hover{
+    background-color: #207490;
+}
+
+.find .text-box .btn.two:hover{
+    background-color: #8aad19;
+}
+
+/* Feature Section CSS */
+.feature{
+    margin: 100px 0;
+}
+
+.feature .main-box{
+    margin-bottom: 46px;
+}
+
+.feature .text-box{
+    padding-right: 18%;
+}
+
+.feature .text-box h2{
+    color: #515151;
+}
+
+.feature .text-box p{
+    line-height: 1.7;
+    color: #8f8f8f;
+}
+
+.feature .button-box{}
+
+.feature .button-box .btn{
+    color: #515151;
+    border: 1px solid rgba(0, 0, 0, 0.42);
+    border-radius: 6px;
+    margin-top: 24%;
+    transition: 0.4s all;
+}
+
+.feature .button-box .btn:hover{
+    background: linear-gradient(147deg,#d2ff3e 30%,#39bbe7);
+    color: #fff;
+    border: 1px solid #abd61d91;
+}
+
+.feature .button-box .btn:focus{
+    outline: 0;
+    box-shadow: none;
+}
+
+    /* Card CSS */
+.feature .card{
+    border-radius: 14px;
+    background: #f7f7f7;
+    border: 1px solid #dedcdc;
+}
+
+.feature .card img{
+    opacity: 0.89;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.feature .card img.new{
+    position: absolute;
+}
+
+.feature .card .btn.gbp{
+    position: absolute;
+    top: 36%;
+    left: 55%;
+    color: #fff;
+    font-weight: bold;
+    background: #26a6d1;
+}
+
+.feature .gbp:hover{
+    background: #167fa1;
+}
+
+.feature .gbp:focus{
+    outline: 0;
+    box-shadow: none;
+}
+
+.feature .card .card-body{}
+
+.feature .card .card-body .card-title{
+    color: #484848;
+    font-size: 18px;
+}
+
+.feature .card .card-body .card-text{
+    color: #484848;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.feature .card .card-body .progress{
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.feature .card .card-body .progress .one{
+    width: 10% !important;
+}
+
+.feature .card .card-body .progress .two{
+    width: 60% !important;
+}
+
+.feature .card .card-body .progress-bar{
+    background: #add136;
+}
+
+.feature .card .card-body .border-bottom{
+    border-bottom: 1px solid #48484870 !important;
+    margin-bottom: 20px;
+}
+
+.feature .card .card-body .fund{
+    font-size: 14px;
+    color: #8d8d8d;
+}
+
+.feature .card .card-body .btn-link{}
+.feature .card .card-body .btn-link .fa{
+    color: #abd61d;
+    font-size: 35px;
+}
+
+.feature .card .card-body .btn-link .see-more{
+    margin-top: 4px;
+    margin-right: 20px;
+    color: #5a4f4f;
+}
+
+/* Coomunity Section CSS */
+.community{
+    background: url(../images/community.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.community .text-box{
+    text-align: center;
+    margin: 60px 0;
+}
+
+.community .text-box h2{
+    color: #9ec02d;
+    font-size: 41px;
+    margin-bottom: 20px;
+}
+
+.community .text-box p{
+    color: #949494;
+    padding: 0 16%;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+/*Message Box CSS*/
+.msg-icn {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    padding:  10px 20px;
+    color: #000;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 16px;
+}
+.msg-icn:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    clip-path: polygon(0% 105%, 0% 0%, 105% 0%, 105% 105%, 43px 105%, 43px 80%, 21px 80%, 21px 105%);
+}
+.msg-icn:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 20px;
+    /* color: #fff; */
+    background: #fff;
+    top: calc(100% - 1px);
+    left: 100px;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 0% 100%, 100% 0%, calc(100% - 2px) 0, 1px calc(0% - 24px), 1px 0);
+}
+.msg-box{
+    margin: 60px 0;
+    width: 80%;
+}
+.msg-box h5{
+    color: #9ec02d;
+}
+.msg-box p{
+    color: #848484;
+    line-height: 1.7;
+}
+.community .msg-box .img-box{
+    margin-left: 12%;
+    margin-top: 36px;
+}
+.community .msg-box .img-box span{
+    margin-left: 5%;
+    color: #494949;
+}
+/*Footer Section CSS*/
+.footer{
+    padding: 50px 0;
+}
+.footer p{
+    text-align: center;
+    color: #848484;
+    margin: 28px 0 0 0;
+}
+
+/*Responsive CSS*/
+@media (min-width: 0px) and (max-width: 575px){
+    /*Navbar Responsive*/
+    .menu .navbar{
+        padding:8px 0;
+    }
+
+    .menu .navbar-nav .nav-item .btn.btn-login {
+        width: 60%;
+        margin: 12px auto;
+    }
+
+    /*Banner Responsive*/
+        .banner .text-box {
+        text-align: center;
+        margin: 128px 0;
+    }
+
+    .banner .text-box h1 {
+        font-size: 38px;
+    }
+
+    /*Work Responsive*/
+    .work {
+        margin: 60px 0;
+    }
+
+    .work .text-box h2 {
+        padding: 0;
+    }
+
+    /*Browse Responsive*/
+        .browse {
+        margin: 0px 0px 60px 0px;
+    }
+    
+    .browse .card-img {
+        width: 50%;
+        margin: 16px auto;
+        display: block;
+    }
+
+    .browse .card .card-body {
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .browse .card .card-body .card-text {
+        padding-right: 0;
+    }
+
+    /*Project Responsive*/
+    .find .text-box.one {
+        padding: 0;
+    }
+
+    .find .img-box img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .find .text-box {
+        text-align: center;
+    }
+
+    .find .text-box h3 {
+        color: #515151;
+        margin: 20px 0;
+    }
+
+    /*Feature Responsive*/
+    .feature {
+        margin: 60px 0;
+    }
+
+    .feature .button-box.float-right{
+        float: none !important;
+    }
+
+    .feature .text-box {
+        padding: 0%;
+        text-align: center;
+    }
+
+    .feature .button-box {
+        text-align: center;
+    }
+
+    .feature .button-box .btn {
+        margin-top: 5%;
+    }
+
+        /*Card Responsive*/
+    .feature .card {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+        .feature .card .btn.gbp {
+        top: 42%;
+        left: 65%;
+    }
+
+    /*Community Responsive*/
+    .community .text-box h2 {
+        font-size: 29px;
+    }
+
+    .community .text-box p {
+        padding: 0;
+    }
+
+    .community .text-box {
+        margin: 60px 0 30px 0;
+    }
+
+    .msg-box {
+        margin: 30px 0;
+        width: 100%;
+    }
+
+    /*Footer Responsive*/
+    .footer {
+        padding: 10px 0 30px 0;
+        text-align: center;
+    }
+
+    .footer img{
+        margin-top: 20px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px){
+    /*Navbar Responsive*/
+    .menu .navbar{
+        padding:8px 0;
+    }
+
+    .menu .navbar-nav .nav-item .btn.btn-login {
+        width: 60%;
+        margin: 12px auto;
+    }
+
+    /*Banner Responsive*/
+        .banner .text-box {
+        text-align: center;
+        margin: 128px 0;
+    }
+
+    .banner .text-box h1 {
+        font-size: 42px;
+    }
+
+    /*Work Responsive*/
+    .work {
+        margin: 60px 0;
+    }
+
+    .work .text-box h2 {
+        padding: 0;
+    }
+
+    /* browse Responsive */
+    .browse {
+        margin: 0px 0px 60px 0px;
+    }
+
+    .browse .card-img {
+        width: 50%;
+        margin: 16px auto;
+        display: block;
+    }
+
+    .browse .card .card-body {
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .browse .card .card-body .card-text {
+        padding-right: 0;
+    }
+
+
+    /*Project Responsive*/
+    .find .text-box.one {
+        padding: 0;
+    }
+
+    .find .img-box img {
+        margin: 0 auto;
+        display: block;
+        margin-top: 18%;
+    }
+
+    .find .text-box {
+        text-align: left;
+    }
+
+    .find .text-box.two {
+        padding: 0;
+    }
+
+    .find .text-box h3 {
+        color: #515151;
+        margin: 20px 0;
+    }
+
+    /*Feature Responsive*/
+    .feature {
+        margin: 60px 0;
+    }
+
+    .feature .button-box.float-right{
+        float: none !important;
+    }
+
+    .feature .text-box {
+        padding: 0%;
+        text-align: center;
+    }
+
+    .feature .button-box {
+        text-align: center;
+    }
+
+    .feature .button-box .btn {
+        margin-top: 5%;
+    }
+
+        /*Card Responsive*/
+    .feature .card {
+        margin-top: 10px;
+    }
+    .feature .card .btn.gbp {
+        top: 45%;
+        left: 60%;
+    }
+
+    /*Community Responsive*/
+    .community .text-box h2 {
+        font-size: 29px;
+    }
+
+    .community .text-box p {
+        padding: 0;
+    }
+
+    .community .text-box {
+        margin: 60px 0 30px 0;
+    }
+
+    .msg-box {
+        margin: 30px 0;
+        width: 100%;
+    }
+
+    /*Footer Responsive*/
+    .footer {
+        padding: 10px 0 30px 0;
+        text-align: center;
+    }
+
+    .footer img{
+        margin-top:20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    /*Navbar Responsive*/
+    .menu .navbar{
+        padding:8px 12px;
+    }
+
+    .menu .navbar-nav .nav-item .btn.btn-login {
+        width: 60%;
+        margin: 12px auto;
+    }
+
+    /*Banner Responsive*/
+        .banner .text-box {
+        text-align: center;
+        margin: 128px 0;
+        padding: 0 10%;
+    }
+
+    .banner .text-box h1 {
+        font-size: 42px;
+    }
+
+    /*Work Responsive*/
+    .work {
+        margin: 60px 0;
+    }
+
+    .work .text-box h2 {
+        padding: 0;
+    }
+
+    /* browse Responsive */
+    .browse {
+        margin: 0px 0px 60px 0px;
+    }
+
+    .browse .card-img{
+        margin-top: 50%;
+    }
+
+    .browse .btn{
+        padding: 0;
+    }
+
+    .browse p .btn span {
+        margin-right: 2px;
+    }
+
+    .browse .col-md-4{
+        padding: 0;
+        text-align: center;
+    }
+
+    /*Project Responsive*/
+    .find .text-box.one {
+        padding: 0;
+    }
+
+    .find .img-box img {
+        margin: 0 auto;
+        display: block;
+        margin-top: 18%;
+    }
+
+    .find .text-box {
+        text-align: left;
+    }
+
+    .find .text-box.two {
+        padding: 0;
+    }
+
+    .find .text-box h3 {
+        color: #515151;
+        margin: 20px 0;
+    }
+
+    /*Feature Responsive*/
+    .feature {
+        margin: 60px 0;
+    }
+
+    .feature .button-box.float-right{
+        margin-top: 40px;
+    }
+
+    .feature .text-box {
+        
+    }
+
+    .feature .button-box {
+        text-align: center;
+    }
+
+    .feature .button-box .btn {
+        margin-top: 5%;
+    }
+
+        /*Card Responsive*/
+    .feature .card {
+        margin-top: 10px;
+    }
+    .feature .card .btn.gbp {
+        top: 45%;
+        left: 60%;
+    }
+
+    .card-deck .card {
+        margin: 0;
+    }
+
+    .feature .card img {
+        margin-bottom: 0;
+    }
+
+    .card-title {
+        margin-bottom: 8px;
+    }
+
+    .feature .card .card-body .card-text {
+        margin-bottom: 12px;
+    }
+    
+    .feature .card .card-body .progress {
+        margin-bottom: 12px;
+    }
+
+    .feature .card p.fund{
+        margin-bottom: 8px;
+    }
+
+    .feature .card .card-body .btn-link .see-more {
+        margin: 4px 20px 0 0;
+    }
+
+    .feature .card .card-body .border-bottom {
+        margin-bottom: 8px;
+    }
+
+    .feature .card .card-body {
+        padding-bottom: 6px;
+    }
+
+    .feature .card .btn.gbp {
+        font-size: 14px;
+    }
+
+    .feature .card .btn.gbp {
+        top: 23%;
+        left: 38%;
+    }
+
+    /*Community Responsive*/
+    .community .text-box h2 {
+        font-size: 29px;
+    }
+
+    .community .text-box p {
+        padding: 0;
+    }
+
+    .community .text-box {
+        margin: 60px 0 30px 0;
+    }
+
+    .msg-box {
+        margin: 30px 0;
+        width: 100%;
+    }
+
+    /*Footer Responsive*/
+    .footer {
+        padding: 10px 0 30px 0;
+        text-align: center;
+    }
+
+    .footer img{
+        margin-top:20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    /*Navbar Responsive*/
+    .menu{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .menu .navbar{
+        padding:8px 12px;
+    }
+
+    .menu .navbar-nav .nav-item .btn.btn-login {
+        margin: 12px 0;
+    }
+
+    .menu .navbar-nav .nav-item .nav-link {
+        margin: 12px 0 0 0;
+    }
+
+    .menu .navbar-nav .nav-item .btn.btn-login {
+        margin-left: 12px;
+    }
+
+    /*Banner Responsive*/
+        .banner .text-box {
+        text-align: center;
+        margin: 148px 0;
+        padding: 0 25%;
+    }
+
+    .banner .text-box h1 {
+        font-size: 42px;
+    }
+
+    /*Work Responsive*/
+    .work {
+        margin: 60px 0;
+    }
+
+    .work .text-box h2 {
+        padding: 0;
+    }
+
+    /* browse Responsive */
+    .browse {
+        margin: 0px 0px 60px 0px;
+    }
+
+    .browse .btn{
+        padding: 0;
+    }
+
+    .browse p .btn span {
+        margin-right: 20px;
+    }
+    /*Project Responsive*/
+    .find .text-box.one {
+        padding: 0 0 0 5%;
+    }
+
+    .find .img-box img {
+        margin: 0 auto;
+        display: block;
+        margin-top: 18%;
+    }
+
+    .find .text-box {
+        text-align: left;
+    }
+
+    .find .text-box.two {
+        padding: 0;
+    }
+
+    .find .text-box h3 {
+        color: #515151;
+        margin: 20px 0;
+    }
+
+    /*Feature Responsive*/
+    .feature {
+        margin: 60px 0;
+    }
+
+    .feature .button-box.float-right{
+        margin-top: 40px;
+    }
+
+    .pl-md-0 {
+        padding-left: 15px !important;
+    }
+
+    .pr-0 {
+        padding-right: 15px !important;
+    }
+
+    .feature .button-box {
+        text-align: center;
+    }
+
+    .feature .button-box .btn {
+        margin-top: 5%;
+    }
+
+        /*Card Responsive*/
+    .feature .card {
+        margin-top: 10px;
+    }
+    .feature .card .btn.gbp {
+        top: 28%;
+        left: 45%;
+    }
+
+    /*Community Responsive*/
+    .community .text-box h2 {
+        font-size: 29px;
+    }
+
+    .community .text-box p {
+        padding: 0;
+    }
+
+    .community .text-box {
+        margin: 60px 0 30px 0;
+    }
+
+    .msg-box {
+        margin: 60px 0;
+    }
+
+    /*Footer Responsive*/
+    .footer {
+        padding: 10px 0 30px 0;
+        text-align: center;
+    }
+
+    .footer img{
+        margin-top:20px;
+    }
+}
